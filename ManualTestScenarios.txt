@@ -1,0 +1,93 @@
+Manual test scenarios for online shopping app http://advantageonlineshopping.com/#/
+
+
+#######Login and Registration Scenarios:
+1. Click on user profile icon> click on create a new account> user registration page should open.
+2. When entering the correct details in registration form, registration shoukd be successful.
+3. If username is existing in DB, user should get a message "Account already exists".
+4. When entering the correct details on the login page, user should login to the site successfully.is successful. 
+5. A logged user clicks on Sign Out – the system logs a user off.
+6. A user clicks on Forgot Password – a password change form pops up. A user signs in with a new password entered – the system logs a user in. 
+7. A user checks Remember Me in the checkbox – the system keeps them logged in for the next visit. A user can log in by pressing Enter after typing in the credentials. 
+8. After entering a username, a person can switch to the password field with Tab. 
+9. A user logs in with the same credentials in different browsers – login successful.
+10. Registration should fail when user tries to register with invalid credentials(not meeting the criteria).
+11. Registration should fail if entered email id is in incorrect format.
+12. Login should fail if user is trying to login with either or both incorrect username/password.
+13. Login should fail if password/username is empty. 
+14. If a user is not logged in, only features and areas for non-logged users should be  available. 
+15. Login should fail if user is entering old password after password change. email – can’t log in.  
+16. User should remain logged out if  user presses the Back button after logging out.
+17. Verify that the required/mandatory fields are marked with * against the field.
+18. Verify that clicking submits button after entering all the required fields, submits the data to the server.
+19. Verify that not filling the mandatory fields and clicking the submit button will lead to validation error.
+20. Verify that not filling the optional fields and clicking the submit button will still send data to the server without any validation error.
+
+
+#########Search Product Scenarios
+
+21. top level categories of products on home page 
+22. Clicking on banner on top left should navigate to the home page.
+23. Check the search using a product name, brand name, or category name. Depending on the requirements, only direct matches or related products should be displayed. 
+24. . Product image, name, and price should be displayed in the search results.
+25.  Results from all categories and subcategories should displayed. 
+26. If a user specifies a category for search, only the results from a corresponding category should be displayed. 
+27. The most relevant products should appear at the top of the list.
+28.  Every page should features different items. The items should repeat.
+29. If a user enters an item name with a typo, a system displays a suggestion.
+30. Pagination should work fine.
+31.  When a user applies a new filter, it should not turn off a previous filter.  
+32. When clicking on a particular segment, say Tablet, correct results should be displayed.
+33. There should be propert product description 
+34. Verify that the correct count of total products is listed on the category pages.
+ 35. Verify that all the sort options work correctly – correctly sort the products based on the sort option chosen
+
+#######Cart scenarios:
+
+36. Users should be easily add/remove products to/from a shopping cart.
+37.  Users can add the same product multiple times and count should reflect in the cart correctly. 
+38 It should be possible to add the same products in different variations – color, size, etc. 
+39. Items in the cart should be  displayed with correct names, images, and prices. 
+40. The items in the cart should be clickable, and the links lead to corresponding product pages.
+41.  Total order price should get updated when a user adds/removes a new item to/from the cart.
+42. If an item is out of stock, a user should not be able to add it to the cart.
+43. When a user removes all items from the cart, nothing should be displayed and the total price should be zero. 
+44. When a user closes a tab with a shopping cart, the items should remain in the cart.
+45. Verify that the user cannot add more than the available inventory of the product.
+
+#####Checkout scenarios:
+46. There should be a prompt to log in or register before completing the purchase.
+47.  Customers can check out and pay as guest users without registration.
+48.  Returned logged-in users can use pre-saved shipping and billing information.
+49. All types of supported payment methods work correctly.
+50. An order confirmation page should appear after a successful checkout.
+51.  A user receives an order confirmation message via an email or text message.
+52.  Order status should be available in the account for registered users.
+53.  After completing the payment, a user should be able to continue navigating through the site.
+
+#######General Scenarios:
+
+54. A logged user can access the My Account area and related settings. 
+55. A user should be able to update and edit their account information, including contacts, shipping address, password, etc.
+56.  A user should be able to view and/or manage order status in the My Orders area.
+57.  Users can view and repeat their previous orders.
+
+
+####Performance Scenarios:
+58. Page loading speed is acceptable. 
+59. It takes the expected time for a user to log in with the correct credentials.
+60. The application should work seamlessly when a user switches between Wi-Fi and mobile data. 
+61. A user should be able to log in from different devices simultaneously.
+62. The information from different devices should synchronize momentarily.
+63. Verify that the session expires as per the session expiration time set.
+64. Website should be compatible on all the browsers.
+ 
+
+#####UI Scenarios:
+65.Verify that the company logo is clearly visible.
+66. Color coding and fonts of the homepage are standard.   
+67. All buttons, textfields, dropdowns, calendars should work as expected. 
+68. Localization should be correct as per the languages supported.
+69. Elements like button/text fields should not overlap. 
+
+
