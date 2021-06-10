@@ -1,0 +1,11 @@
+Manual High Level Scenarios:
+
+1. Validate API returns 200 when all the api inputs are valid.
+2. Validate the api response body
+3. Check how much time api is taking to process the request
+4. Change the URL and validate api should return 404.
+5. Validate the status line of the api response
+6. Change the expected content-type/body and validate the api response
+7. Give incorrect/expired token values (if applicable) and validate api should return 401 response.
+8. Api should return 400 if api body is incorrect
+9. API should return 503 if server is down
